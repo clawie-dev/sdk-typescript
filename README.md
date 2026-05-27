@@ -28,7 +28,11 @@ const c = new Clawie({ host: 'http://localhost:3333', token: process.env.CLAWIE_
 // Create + execute a task (v1.0 surface)
 const task = await c.tasks.create({
   intent: 'chat',
-  payload: { prompt: 'Hello' },
+  payload: {
+    provider: 'anthropic',
+    model: 'claude-sonnet-4-6',
+    messages: [{ role: 'user', content: 'Hello' }],
+  },
 })
 
 // List pending approvals
