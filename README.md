@@ -65,3 +65,5 @@ Future sibling: `sdk-python`.
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+[![advertisement](https://ads.servead.net/i/2cd26808-3a0c-48ff-b2ed-05b918f7225b.svg)](https://ads.servead.net/c/2cd26808-3a0c-48ff-b2ed-05b918f7225b)
